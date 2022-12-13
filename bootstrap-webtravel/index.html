@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel web-</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- font-awesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+    .custom_btn{
+        background-color: rgb(122, 15, 122);
+        color: white;
+    }
+    .navbar_logo span{
+    color: purple;
+    font-size: 1.7rem;
+
+}
+    .navbar_custom_text{
+        font-size: 1.2rem;
+    color: rgb(114, 82, 114);
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.custom_title{
+    text-transform: capitalize;
+    color: purple;
+    font-weight: bold;
+    
+}
+.custom_dec{
+    background-color: white;
+    color: purple;
+}
+.custom_img{
+  height: 500px;
+  object-fit: cover;
+  opacity: .6;
+}
+.custom_package_img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.custom_offer_img{
+  height: 300px;
+  object-fit: cover;
+}
+.custom_about_img{
+  width: 100%;
+  height: 300px;
+}
+.custom_font{
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+
+</style>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar_custom">
+       <div class="container-fluid">
+        <a href="#" class="navbar-brand navbar_logo"><span>travel-tour</span></a> 
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlist">|||</button>
+       <div class="collapse navbar-collapse" id="navbarlist">
+        <ul class="navbar-nav m-auto navbar_menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link navbar_custom_text">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link navbar_custom_text">about</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link navbar_custom_text">services</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact" class="nav-link navbar_custom_text">contact</a>
+            </li>
+           
+        </ul>
+        <div class="btn_custom">
+            <button class="btn custom_btn">signin</button>
+            <button class="btn custom_btn">login</button>
+        </div>
+
+        </div>
+       </div>
+       </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- home section  -->
+    <section id="home">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/gallery4.jpg" class="d-block w-100 custom_img alt="...">
+            <div class="carousel-caption  d-md-block">
+             <h1 class="display-2 custom_title">tour and travels</h1>
+              <p class="custom_dec">Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-lg btn-outline-light custom_btn">Get packages</button>
+              <button class="btn btn-lg btn-outline-light custom_btn">Become member</button>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/gallery2.jpg" class="d-block w-100 custom_img" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <h1 class="display-2 custom_title">tour and travels</h1>
+                <p class="custom_dec">Some representative placeholder content for the first slide.</p>
+                <button class="btn btn-lg btn-outline-light custom_btn">Get packages</button>
+                <button class="btn btn-lg btn-outline-light custom_btn">Become member</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/gallery1.jpg" class="d-block w-100 custom_img" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <h1 class="display-2 custom_title">tour and travels</h1>
+              <p class="custom_dec">Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-lg btn-outline-light custom_btn">Get packages</button>
+              <button class="btn btn-lg btn-outline-light custom_btn">Become member</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+    <!-- home section end -->
+<!-- apply code section -->
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 text-center">
+      <a href="#"><button class="btn custom_btn mb-2">Apply coupan code</button></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-9 col lg-10 ">
+      <p class="custom_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis possimus nobis accusantium modi dignissimos doloremque voluptatem qui vel eius.</p>
+    </div>
+  </div>
+</div>
+<!-- apply code section end-->
+
+<!-- packages -->
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-12">
+    <h1 class="heading mb-2">Our packages</h1>
+  </div>
+  <hr>
+  <div class="col-12">
+    <p class="custom_dec">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, suscipit?</p>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="images/goa-trip.jpg" class ="img-fluid custom_package_img" alt="">
+      <h5 class="heading">package1</h5>
+      <p class="custom_dec">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="images/japan-trip.jpg" class ="img-fluid custom_package_img" alt="">
+      <h5 class="heading">package2</h5>
+      <p class="custom_dec">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="images/london-trip.jpg" class ="img-fluid custom_package_img" alt="">
+      <h5 class="heading">package3</h5>
+      <p class="custom_dec">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="images/paris-trip.jpg" class ="img-fluid custom_package_img" alt="">
+      <h5 class="heading">package4</h5>
+      <p class="custom_dec">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+  <hr class="my-4">
+</div>
+<!-- packages end -->
+
+    <!-- offer start-->
+    <div class="container-fluid mb-3">
+      <h1 class="heading text-center">Amazing offers</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img src="images/gallery6.jpg" class="card-img-top custom_offer_img" alt="">
+            <div class="card body">
+              <h4 class="card-title heading">kerala trip</h4>
+              <p class="custom_dec card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nisi.</p>
+              <a href="#" class="btn custom_btn mb-3 w-50">know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img src="images/gallery5.jpg" class="card-img-top custom_offer_img" alt="">
+            <div class="card body">
+              <h4 class="card-title heading">Paris trip</h4>
+              <p class="custom_dec card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nisi.</p>
+              <a href="#" class="btn custom_btn mb-3 w-50">know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img src="images/gallery2.jpg" class="card-img-top custom_offer_img" alt="">
+            <div class="card body heading">
+              <h4 class="card-title">Goa trip</h4>
+              <p class="custom_dec card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nisi.</p>
+              <a href="#" class="btn custom_btn mb-3 w-50">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- offers end -->
+
+     <!-- about -->
+     <div class="container">
+      <div class="row mb-3">
+        <div class=" col-xs-12 col-md-6">
+          <h5 class="heading">travel at best price</h5>
+          <p class="custom_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo sequi ea perferendis possimus nulla suscipit consequatur, fuga qui laboriosam neque voluptate, veritatis impedit. Iste.</p>
+          <p class="custom_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates quo perferendis repellendus corporis recusandae delectus, quasi, repellat blanditiis itaque natus magni! Molestias soluta dolore, pariatur inventore maiores voluptatibus sequi at tempore. Necessitatibus quis magnam atque nihil voluptate dolorem qui.</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="images/china-trip.jpg" class="custom_about_img" alt="">
+        </div>
+      </div>
+      <hr class="my-4">
+     </div>
+<!-- about end -->
+
+<!-- footer -->
+ <div class="container-fluid">
+        <div class="row">
+  <div class="col-md-12">
+      <h4 class="heading text-center">follow us</h4>
+  </div>
+  <div class="col-md-12  text-center">
+    <i class="fa-brands fa-square-facebook heading custom_font"></i>
+    <i class="fa-brands fa-square-instagram heading custom_font"></i>
+    <i class="fa-brands fa-square-twitter heading custom_font"></i>
+    <i class="fa-brands fa-square-whatsapp heading custom_font"></i>
+    <i class="fa-brands fa-square-youtube heading custom_font"></i>
+  </div>
+ </div>   
+ </div>
+
+<!-- footer end -->
+    
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
